@@ -1,69 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-02T23:25:54 IST" name="OpenCart Test Automation Suite" finished-at="2025-03-02T23:26:18 IST" duration-ms="24127">
+  <suite started-at="2025-03-03T20:07:43 IST" name="OpenCart Test Automation Suite" finished-at="2025-03-03T20:08:48 IST" duration-ms="64228">
     <groups>
     </groups>
-    <test started-at="2025-03-02T23:25:54 IST" name="OpenCart Tests" finished-at="2025-03-02T23:26:18 IST" duration-ms="24127">
+    <test started-at="2025-03-03T20:07:43 IST" name="User Authentication and Product Search Tests - chrome" finished-at="2025-03-03T20:08:28 IST" duration-ms="45009">
       <class name="com.opencart.testcases.SearchProduct">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.SearchProduct@1033576a]" started-at="2025-03-02T23:26:01 IST" name="setup" finished-at="2025-03-02T23:26:03 IST" duration-ms="2464" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.SearchProduct@4351c8c3]" started-at="2025-03-03T20:07:58 IST" name="setup" finished-at="2025-03-03T20:08:03 IST" duration-ms="4815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyValidProductSearch()[pri:0, instance:com.opencart.testcases.SearchProduct@1033576a]" started-at="2025-03-02T23:26:03 IST" name="verifyValidProductSearch" finished-at="2025-03-02T23:26:04 IST" depends-on-methods="verifyLoginWithValidCredentials" duration-ms="625" status="PASS">
+        <test-method signature="verifyValidProductSearch()[pri:0, instance:com.opencart.testcases.SearchProduct@4351c8c3]" started-at="2025-03-03T20:08:03 IST" name="verifyValidProductSearch" finished-at="2025-03-03T20:08:04 IST" duration-ms="806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidProductSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.SearchProduct@1033576a]" started-at="2025-03-02T23:26:04 IST" name="tearDown" finished-at="2025-03-02T23:26:04 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.SearchProduct@4351c8c3]" started-at="2025-03-03T20:08:04 IST" name="tearDown" finished-at="2025-03-03T20:08:04 IST" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.SearchProduct@1033576a]" started-at="2025-03-02T23:26:04 IST" name="setup" finished-at="2025-03-02T23:26:07 IST" duration-ms="2641" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.SearchProduct@4351c8c3]" started-at="2025-03-03T20:08:04 IST" name="setup" finished-at="2025-03-03T20:08:08 IST" duration-ms="4139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyInvalidProductSearch()[pri:1, instance:com.opencart.testcases.SearchProduct@1033576a]" started-at="2025-03-02T23:26:07 IST" name="verifyInvalidProductSearch" finished-at="2025-03-02T23:26:07 IST" depends-on-methods="com.opencart.testcases.SearchProduct.verifyValidProductSearch" duration-ms="455" status="PASS">
+        <test-method signature="verifyInvalidProductSearch()[pri:1, instance:com.opencart.testcases.SearchProduct@4351c8c3]" started-at="2025-03-03T20:08:08 IST" name="verifyInvalidProductSearch" finished-at="2025-03-03T20:08:09 IST" duration-ms="919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidProductSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.SearchProduct@1033576a]" started-at="2025-03-02T23:26:07 IST" name="tearDown" finished-at="2025-03-02T23:26:07 IST" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.SearchProduct@4351c8c3]" started-at="2025-03-03T20:08:09 IST" name="tearDown" finished-at="2025-03-03T20:08:09 IST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.opencart.testcases.SearchProduct -->
       <class name="com.opencart.testcases.Register">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.Register@1349883]" started-at="2025-03-02T23:25:57 IST" name="setup" finished-at="2025-03-02T23:25:59 IST" duration-ms="1919" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Register@246f8b8b]" started-at="2025-03-03T20:07:50 IST" name="setup" finished-at="2025-03-03T20:07:55 IST" duration-ms="4730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegistrationWithMandatoryFields()[pri:0, instance:com.opencart.testcases.Register@1349883]" started-at="2025-03-02T23:25:59 IST" name="verifyRegistrationWithMandatoryFields" finished-at="2025-03-02T23:26:01 IST" duration-ms="1844" status="PASS">
+        <test-method signature="verifyRegistrationWithMandatoryFields()[pri:0, instance:com.opencart.testcases.Register@246f8b8b]" started-at="2025-03-03T20:07:55 IST" name="verifyRegistrationWithMandatoryFields" finished-at="2025-03-03T20:07:58 IST" duration-ms="2681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Register@1349883]" started-at="2025-03-02T23:26:01 IST" name="tearDown" finished-at="2025-03-02T23:26:01 IST" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Register@246f8b8b]" started-at="2025-03-03T20:07:58 IST" name="tearDown" finished-at="2025-03-03T20:07:58 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.opencart.testcases.Register -->
       <class name="com.opencart.testcases.Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:25:54 IST" name="setup" finished-at="2025-03-02T23:25:56 IST" duration-ms="2349" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:07:44 IST" name="setup" finished-at="2025-03-03T20:07:49 IST" duration-ms="5486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:25:56 IST" name="verifyLoginWithValidCredentials" finished-at="2025-03-02T23:25:57 IST" duration-ms="685" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:07:49 IST" name="verifyLoginWithValidCredentials" finished-at="2025-03-03T20:07:50 IST" duration-ms="1018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:25:57 IST" name="tearDown" finished-at="2025-03-02T23:25:57 IST" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:07:50 IST" name="tearDown" finished-at="2025-03-03T20:07:50 IST" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:08 IST" name="setup" finished-at="2025-03-02T23:26:10 IST" duration-ms="1843" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:10 IST" name="setup" finished-at="2025-03-03T20:08:14 IST" duration-ms="3352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginDataDriven(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:10 IST" name="verifyLoginDataDriven" data-provider="loginData" finished-at="2025-03-02T23:26:11 IST" depends-on-methods="com.opencart.testcases.Login.verifyLoginWithValidCredentials" duration-ms="614" status="PASS">
+        <test-method signature="verifyLoginWithDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:14 IST" name="verifyLoginWithDataProvider" data-provider="loginData" finished-at="2025-03-03T20:08:15 IST" duration-ms="849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,16 +113,23 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginDataDriven -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:11 IST" name="tearDown" finished-at="2025-03-02T23:26:11 IST" duration-ms="104" status="PASS">
+        </test-method> <!-- verifyLoginWithDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:15 IST" name="tearDown" finished-at="2025-03-03T20:08:15 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:11 IST" name="setup" finished-at="2025-03-02T23:26:12 IST" duration-ms="1808" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:15 IST" name="setup" finished-at="2025-03-03T20:08:18 IST" duration-ms="3590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginDataDriven(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:12 IST" name="verifyLoginDataDriven" data-provider="loginData" finished-at="2025-03-02T23:26:13 IST" depends-on-methods="com.opencart.testcases.Login.verifyLoginWithValidCredentials" duration-ms="612" status="PASS">
+        <test-method signature="verifyLoginWithDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:18 IST" name="verifyLoginWithDataProvider" data-provider="loginData" finished-at="2025-03-03T20:08:20 IST" duration-ms="1152" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,36 +144,234 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginDataDriven -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:13 IST" name="tearDown" finished-at="2025-03-02T23:26:13 IST" duration-ms="111" status="PASS">
+        </test-method> <!-- verifyLoginWithDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:20 IST" name="tearDown" finished-at="2025-03-03T20:08:20 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:13 IST" name="setup" finished-at="2025-03-02T23:26:15 IST" duration-ms="1831" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:20 IST" name="setup" finished-at="2025-03-03T20:08:23 IST" duration-ms="3375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:15 IST" name="verifyLoginWithInvalidCredentials" finished-at="2025-03-02T23:26:15 IST" duration-ms="395" status="PASS">
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:23 IST" name="verifyLoginWithInvalidCredentials" finished-at="2025-03-03T20:08:24 IST" duration-ms="542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:15 IST" name="tearDown" finished-at="2025-03-02T23:26:15 IST" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:24 IST" name="tearDown" finished-at="2025-03-03T20:08:24 IST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:16 IST" name="setup" finished-at="2025-03-02T23:26:17 IST" duration-ms="1773" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:24 IST" name="setup" finished-at="2025-03-03T20:08:27 IST" duration-ms="3385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:17 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2025-03-02T23:26:18 IST" duration-ms="370" status="PASS">
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:27 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2025-03-03T20:08:28 IST" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@247310d0]" started-at="2025-03-02T23:26:18 IST" name="tearDown" finished-at="2025-03-02T23:26:18 IST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@278bb07e]" started-at="2025-03-03T20:08:28 IST" name="tearDown" finished-at="2025-03-03T20:08:28 IST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.opencart.testcases.Login -->
-    </test> <!-- OpenCart Tests -->
+    </test> <!-- User Authentication and Product Search Tests - chrome -->
+    <test started-at="2025-03-03T20:07:43 IST" name="User Authentication and Product Search Tests - firefox" finished-at="2025-03-03T20:08:48 IST" duration-ms="64228">
+      <class name="com.opencart.testcases.SearchProduct">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.SearchProduct@f478a81]" started-at="2025-03-03T20:08:05 IST" name="setup" finished-at="2025-03-03T20:08:11 IST" duration-ms="6372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyValidProductSearch()[pri:0, instance:com.opencart.testcases.SearchProduct@f478a81]" started-at="2025-03-03T20:08:11 IST" name="verifyValidProductSearch" finished-at="2025-03-03T20:08:12 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidProductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.SearchProduct@f478a81]" started-at="2025-03-03T20:08:12 IST" name="tearDown" finished-at="2025-03-03T20:08:14 IST" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.SearchProduct@f478a81]" started-at="2025-03-03T20:08:14 IST" name="setup" finished-at="2025-03-03T20:08:21 IST" duration-ms="7078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidProductSearch()[pri:1, instance:com.opencart.testcases.SearchProduct@f478a81]" started-at="2025-03-03T20:08:21 IST" name="verifyInvalidProductSearch" finished-at="2025-03-03T20:08:21 IST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidProductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.SearchProduct@f478a81]" started-at="2025-03-03T20:08:21 IST" name="tearDown" finished-at="2025-03-03T20:08:23 IST" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testcases.SearchProduct -->
+      <class name="com.opencart.testcases.Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:07:44 IST" name="setup" finished-at="2025-03-03T20:07:53 IST" duration-ms="9737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:07:53 IST" name="verifyLoginWithValidCredentials" finished-at="2025-03-03T20:07:54 IST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:07:54 IST" name="tearDown" finished-at="2025-03-03T20:07:56 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:23 IST" name="setup" finished-at="2025-03-03T20:08:29 IST" duration-ms="6417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:29 IST" name="verifyLoginWithDataProvider" data-provider="loginData" finished-at="2025-03-03T20:08:30 IST" duration-ms="822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ishvarkharche@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:30 IST" name="tearDown" finished-at="2025-03-03T20:08:31 IST" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:31 IST" name="setup" finished-at="2025-03-03T20:08:36 IST" duration-ms="4392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:36 IST" name="verifyLoginWithDataProvider" data-provider="loginData" finished-at="2025-03-03T20:08:36 IST" duration-ms="589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ishvarkharcheas@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:36 IST" name="tearDown" finished-at="2025-03-03T20:08:37 IST" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:37 IST" name="setup" finished-at="2025-03-03T20:08:41 IST" duration-ms="3931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:41 IST" name="verifyLoginWithInvalidCredentials" finished-at="2025-03-03T20:08:42 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:42 IST" name="tearDown" finished-at="2025-03-03T20:08:42 IST" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:42 IST" name="setup" finished-at="2025-03-03T20:08:46 IST" duration-ms="3843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:46 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2025-03-03T20:08:47 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Login@47a86fbb]" started-at="2025-03-03T20:08:47 IST" name="tearDown" finished-at="2025-03-03T20:08:48 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testcases.Login -->
+      <class name="com.opencart.testcases.Register">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testcases.Register@7ac2e39b]" started-at="2025-03-03T20:07:56 IST" name="setup" finished-at="2025-03-03T20:08:02 IST" duration-ms="6047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegistrationWithMandatoryFields()[pri:0, instance:com.opencart.testcases.Register@7ac2e39b]" started-at="2025-03-03T20:08:02 IST" name="verifyRegistrationWithMandatoryFields" finished-at="2025-03-03T20:08:04 IST" duration-ms="2259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.Register@7ac2e39b]" started-at="2025-03-03T20:08:04 IST" name="tearDown" finished-at="2025-03-03T20:08:05 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testcases.Register -->
+    </test> <!-- User Authentication and Product Search Tests - firefox -->
   </suite> <!-- OpenCart Test Automation Suite -->
 </testng-results>

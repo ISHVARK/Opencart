@@ -1,0 +1,43 @@
+20:08:10.912 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:08:10.954 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:08:10.956 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:08:10.957 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:08:11.186 [TestNG-tests-1] INFO  com.opencart.base.Base - Navigated to Login Page.
+20:08:11.813 [TestNG-tests-1] INFO  com.opencart.base.Base - Login successful. Proceeding with search tests.
+20:08:11.815 [TestNG-tests-1] INFO  com.opencart.base.Base - Starting valid product search test.
+20:08:12.536 [TestNG-tests-1] INFO  com.opencart.base.Base - Valid product search test passed.
+20:08:12.978 [TestNG-tests-2] INFO  com.opencart.base.Base - Chrome browser launched.
+20:08:13.548 [TestNG-tests-2] INFO  com.opencart.base.Base - Navigated to: http://localhost/opencart/upload/
+20:08:13.549 [TestNG-tests-2] INFO  com.opencart.base.Base - Base URL from properties: http://localhost/opencart/upload/
+20:08:14.077 [TestNG-tests-1] INFO  com.opencart.base.Base - Browser closed successfully.
+20:08:14.336 [TestNG-tests-2] INFO  com.opencart.base.Base - Setup completed: Browser 'chrome' launched, navigated to Login Page.
+20:08:15.183 [TestNG-tests-2] INFO  com.opencart.base.Base - Login successful for user: ishvarkharche@gmail.com
+20:08:15.378 [TestNG-tests-2] INFO  com.opencart.base.Base - Browser closed successfully.
+20:08:17.396 [TestNG-tests-2] INFO  com.opencart.base.Base - Chrome browser launched.
+20:08:18.110 [TestNG-tests-2] INFO  com.opencart.base.Base - Navigated to: http://localhost/opencart/upload/
+20:08:18.110 [TestNG-tests-2] INFO  com.opencart.base.Base - Base URL from properties: http://localhost/opencart/upload/
+20:08:18.722 [TestNG-tests-1] INFO  com.opencart.base.Base - FireFox browser launched.
+20:08:18.968 [TestNG-tests-2] INFO  com.opencart.base.Base - Setup completed: Browser 'chrome' launched, navigated to Login Page.
+20:08:19.669 [TestNG-tests-1] INFO  com.opencart.base.Base - Navigated to: http://localhost/opencart/upload/
+20:08:19.670 [TestNG-tests-1] INFO  com.opencart.base.Base - Base URL from properties: http://localhost/opencart/upload/
+20:08:19.670 [TestNG-tests-1] INFO  com.opencart.base.Base - Driver initialized and application launched.
+20:08:20.120 [TestNG-tests-2] INFO  com.opencart.base.Base - Login successful for user: ishvarkharcheas@gmail.com
+20:08:20.356 [TestNG-tests-2] INFO  com.opencart.base.Base - Browser closed successfully.
+20:08:20.552 [TestNG-tests-1] INFO  com.opencart.base.Base - Navigated to Login Page.
+20:08:21.155 [TestNG-tests-1] INFO  com.opencart.base.Base - Login successful. Proceeding with search tests.
+20:08:21.156 [TestNG-tests-1] INFO  com.opencart.base.Base - Starting invalid product search test.
+20:08:21.818 [TestNG-tests-1] INFO  com.opencart.base.Base - Invalid product search test passed.
+20:08:22.392 [TestNG-tests-2] INFO  com.opencart.base.Base - Chrome browser launched.
+20:08:23.096 [TestNG-tests-2] INFO  com.opencart.base.Base - Navigated to: http://localhost/opencart/upload/
+20:08:23.096 [TestNG-tests-2] INFO  com.opencart.base.Base - Base URL from properties: http://localhost/opencart/upload/
+20:08:23.256 [TestNG-tests-1] INFO  com.opencart.base.Base - Browser closed successfully.
+20:08:23.263 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:08:23.263 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:08:23.271 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:08:23.311 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:08:23.312 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:08:23.312 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:08:23.345 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:08:23.347 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:08:23.349 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:08:23.367 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels

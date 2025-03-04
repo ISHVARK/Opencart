@@ -11,8 +11,8 @@ import org.openqa.selenium.io.FileHandler;
 
 public class Utilities {
 
-    public static final int implicitWaitTimeout = 5;
-    public static final int pageLoadTimeout = 5;
+    public static final int implicitWaitTimeout = 8;
+    public static final int pageLoadTimeout = 15;
 
     public static String generateEmailWithTimestamp() {
     	Date d = new Date();

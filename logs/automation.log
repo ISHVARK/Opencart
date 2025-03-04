@@ -1,0 +1,41 @@
+20:08:23.380 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:08:23.386 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:08:23.433 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:08:23.436 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:08:23.438 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:08:23.483 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:08:23.486 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:08:23.487 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:08:23.732 [TestNG-tests-2] INFO  com.opencart.base.Base - Setup completed: Browser 'chrome' launched, navigated to Login Page.
+20:08:24.274 [TestNG-tests-2] WARN  com.opencart.base.Base - Attempted login with invalid credentials.
+20:08:24.501 [TestNG-tests-2] INFO  com.opencart.base.Base - Browser closed successfully.
+20:08:26.461 [TestNG-tests-2] INFO  com.opencart.base.Base - Chrome browser launched.
+20:08:27.268 [TestNG-tests-2] INFO  com.opencart.base.Base - Navigated to: http://localhost/opencart/upload/
+20:08:27.268 [TestNG-tests-2] INFO  com.opencart.base.Base - Base URL from properties: http://localhost/opencart/upload/
+20:08:27.887 [TestNG-tests-2] INFO  com.opencart.base.Base - Setup completed: Browser 'chrome' launched, navigated to Login Page.
+20:08:28.452 [TestNG-tests-1] INFO  com.opencart.base.Base - FireFox browser launched.
+20:08:28.462 [TestNG-tests-2] WARN  com.opencart.base.Base - Attempted login with invalid email but valid password.
+20:08:28.793 [TestNG-tests-2] INFO  com.opencart.base.Base - Browser closed successfully.
+20:08:29.249 [TestNG-tests-1] INFO  com.opencart.base.Base - Navigated to: http://localhost/opencart/upload/
+20:08:29.250 [TestNG-tests-1] INFO  com.opencart.base.Base - Base URL from properties: http://localhost/opencart/upload/
+20:08:29.929 [TestNG-tests-1] INFO  com.opencart.base.Base - Setup completed: Browser 'firefox' launched, navigated to Login Page.
+20:08:30.751 [TestNG-tests-1] INFO  com.opencart.base.Base - Login successful for user: ishvarkharche@gmail.com
+20:08:31.691 [TestNG-tests-1] INFO  com.opencart.base.Base - Browser closed successfully.
+20:08:34.777 [TestNG-tests-1] INFO  com.opencart.base.Base - FireFox browser launched.
+20:08:35.497 [TestNG-tests-1] INFO  com.opencart.base.Base - Navigated to: http://localhost/opencart/upload/
+20:08:35.497 [TestNG-tests-1] INFO  com.opencart.base.Base - Base URL from properties: http://localhost/opencart/upload/
+20:08:36.083 [TestNG-tests-1] INFO  com.opencart.base.Base - Setup completed: Browser 'firefox' launched, navigated to Login Page.
+20:08:36.673 [TestNG-tests-1] INFO  com.opencart.base.Base - Login successful for user: ishvarkharcheas@gmail.com
+20:08:37.776 [TestNG-tests-1] INFO  com.opencart.base.Base - Browser closed successfully.
+20:08:40.514 [TestNG-tests-1] INFO  com.opencart.base.Base - FireFox browser launched.
+20:08:41.057 [TestNG-tests-1] INFO  com.opencart.base.Base - Navigated to: http://localhost/opencart/upload/
+20:08:41.057 [TestNG-tests-1] INFO  com.opencart.base.Base - Base URL from properties: http://localhost/opencart/upload/
+20:08:41.707 [TestNG-tests-1] INFO  com.opencart.base.Base - Setup completed: Browser 'firefox' launched, navigated to Login Page.
+20:08:42.041 [TestNG-tests-1] WARN  com.opencart.base.Base - Attempted login with invalid credentials.
+20:08:42.941 [TestNG-tests-1] INFO  com.opencart.base.Base - Browser closed successfully.
+20:08:45.632 [TestNG-tests-1] INFO  com.opencart.base.Base - FireFox browser launched.
+20:08:46.171 [TestNG-tests-1] INFO  com.opencart.base.Base - Navigated to: http://localhost/opencart/upload/
+20:08:46.172 [TestNG-tests-1] INFO  com.opencart.base.Base - Base URL from properties: http://localhost/opencart/upload/
+20:08:46.784 [TestNG-tests-1] INFO  com.opencart.base.Base - Setup completed: Browser 'firefox' launched, navigated to Login Page.
+20:08:47.107 [TestNG-tests-1] WARN  com.opencart.base.Base - Attempted login with invalid email but valid password.
+20:08:48.012 [TestNG-tests-1] INFO  com.opencart.base.Base - Browser closed successfully.
